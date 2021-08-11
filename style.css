@@ -1,0 +1,8 @@
+#Main_img{
+  height: 350px; 
+  width: 350px;
+}
+body{
+    background-image:url(https://image.freepik.com/free-vector/family-background-frame_38747-634.jpg);
+    background-size: cover;
+}
