@@ -5,14 +5,14 @@ var images=["https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffre
 var labels=["SISTER!","MOTHER!","FATHER!","ME!"];
 var i=0;
 function Next_image(){
-    if(i==4)
+    if(i==4){
         i=0;
-}
+         i++;
 var updated_image=images[i];
 var updated_labels=labels[i];
 document.getElementById("Main_img").src=updated_image;
 document.getElementById("Main_label").innerHTML=updated_labels;
-
-
+}
+}
 
 
